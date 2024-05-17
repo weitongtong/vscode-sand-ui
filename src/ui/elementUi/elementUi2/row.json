@@ -1,5 +1,5 @@
 {
-  "name": "ElRow",
+  "name": "SaRow",
   "props": {
     ":gutter": {
       "value": "",
@@ -48,9 +48,9 @@
       "description_zh": "自定义元素标签"
     }
   },
-  "suggestions": ["el-col"],
-  "link": "https://element.eleme.cn/#/en-US/component/layout",
-  "link_zh": "https://element.eleme.cn/#/zh-CN/component/layout",
+  "suggestions": ["sa-col"],
+  "link": "http://sand.startdt.net/#/layout",
+  "link_zh": "http://sand.startdt.net/#/layout",
   "methods": [],
   "events": []
 }

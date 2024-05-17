@@ -1,5 +1,5 @@
 {
-  "name": "ElAvatar",
+  "name": "SaAvatar",
   "props": {
     "icon": {
       "value": "",
@@ -82,7 +82,7 @@
     }
   ],
   "events": [],
-  "link": "https://element.eleme.cn/#/en-US/component/avatar",
-  "link_zh": "https://element.eleme.cn/#/zh-CN/component/avatar",
+  "link": "http://sand.startdt.net/#/avatar",
+  "link_zh": "http://sand.startdt.net/#/avatar",
   "methods": []
 }

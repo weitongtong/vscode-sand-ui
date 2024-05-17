@@ -1,5 +1,5 @@
 {
-  "name": "ElTimePicker",
+  "name": "SaTimePicker",
   "props": {
     ":v-model": {
       "value": "",
@@ -132,14 +132,14 @@
     "prefix-icon": {
       "value": "",
       "description": "自定义头部图标的类名",
-      "default": "el-icon-time",
+      "default": "sa-icon-time",
       "type": "string",
       "description_zh": "自定义头部图标的类名"
     },
     "clear-icon": {
       "value": "",
       "description": "自定义清空图标的类名",
-      "default": "el-icon-circle-close",
+      "default": "sa-icon-circle-close",
       "type": "string",
       "description_zh": "自定义清空图标的类名"
     }
@@ -191,6 +191,6 @@
       "params": "组件实例"
     }
   ],
-  "link": "https://element.eleme.cn/#/en-US/component/time-picker",
-  "link_zh": "https://element.eleme.cn/#/zh-CN/component/time-picker"
+  "link": "http://sand.startdt.net/#/time-picker",
+  "link_zh": "http://sand.startdt.net/#/time-picker"
 }

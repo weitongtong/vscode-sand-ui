@@ -1,9 +1,9 @@
 {
-  "name": "ElButtonGroup",
+  "name": "SaButtonGroup",
   "props": {},
-  "suggestions": ["el-button"],
-  "link": "https://element.eleme.cn/#/en-US/component/button",
-  "link_zh": "https://element.eleme.cn/#/zh-CN/component/button",
+  "suggestions": ["sa-button"],
+  "link": "http://sand.startdt.net/#/button",
+  "link_zh": "http://sand.startdt.net/#/button",
   "methods": [],
   "events": []
 }

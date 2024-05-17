@@ -1,5 +1,5 @@
 {
-  "name": "ElCol",
+  "name": "SaCol",
   "props": {
     ":span": {
       "value": "",
@@ -72,8 +72,8 @@
       "description_zh": "自定义元素标签"
     }
   },
-  "link": "https://element.eleme.cn/#/en-US/component/layout",
-  "link_zh": "https://element.eleme.cn/#/zh-CN/component/layout",
+  "link": "http://sand.startdt.net/#/layout",
+  "link_zh": "http://sand.startdt.net/#/layout",
   "methods": [],
   "events": []
 }

@@ -1,5 +1,5 @@
 {
-  "name": "ElAutocomplete",
+  "name": "SaAutocomplete",
   "props": {
     "placeholder": {
       "value": "",
@@ -176,6 +176,6 @@
       "description_zh": "输入框后置内容"
     }
   ],
-  "link": "https://element.eleme.cn/#/en-US/component/input%23dai-shu-ru-jian-yi",
-  "link_zh": "https://element.eleme.cn/#/zh-CN/component/input%23dai-shu-ru-jian-yi"
+  "link": "http://sand.startdt.net/#/input%23dai-shu-ru-jian-yi",
+  "link_zh": "http://sand.startdt.net/#/input%23dai-shu-ru-jian-yi"
 }

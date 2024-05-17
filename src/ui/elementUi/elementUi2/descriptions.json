@@ -1,5 +1,5 @@
 {
-  "name": "ElDescriptions",
+  "name": "SaDescriptions",
   "props": {
     "border": {
       "value": "",
@@ -100,8 +100,8 @@
     }
   ],
   "events": [],
-  "suggestions": ["el-descriptions-item"],
-  "link": "https://element.eleme.cn/#/en-US/component/descriptions",
-  "link_zh": "https://element.eleme.cn/#/zh-CN/component/descriptions",
+  "suggestions": ["sa-descriptions-item"],
+  "link": "http://sand.startdt.net/#/descriptions",
+  "link_zh": "http://sand.startdt.net/#/descriptions",
   "methods": []
 }

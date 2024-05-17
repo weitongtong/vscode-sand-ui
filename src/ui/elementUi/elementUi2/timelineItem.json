@@ -1,5 +1,5 @@
 {
-  "name": "ElTimelineItem",
+  "name": "SaTimelineItem",
   "props": {
     ":timestamp": {
       "value": "",
@@ -78,7 +78,7 @@
     }
   ],
   "events": [],
-  "link": "https://element.eleme.cn/#/en-US/component/timeline",
-  "link_zh": "https://element.eleme.cn/#/zh-CN/component/timeline",
+  "link": "http://sand.startdt.net/#/timeline",
+  "link_zh": "http://sand.startdt.net/#/timeline",
   "methods": []
 }

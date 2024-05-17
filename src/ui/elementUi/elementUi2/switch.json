@@ -1,5 +1,5 @@
 {
-  "name": "ElSwitch",
+  "name": "SaSwitch",
   "props": {
     "value": {
       "value": "",
@@ -119,6 +119,6 @@
       "value": ""
     }
   ],
-  "link": "https://element.eleme.cn/#/en-US/component/switch",
-  "link_zh": "https://element.eleme.cn/#/zh-CN/component/switch"
+  "link": "http://sand.startdt.net/#/switch",
+  "link_zh": "http://sand.startdt.net/#/switch"
 }

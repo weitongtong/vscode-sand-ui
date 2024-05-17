@@ -1,5 +1,5 @@
 {
-  "name": "ElCheckboxButton",
+  "name": "SaCheckboxButton",
   "props": {
     "label": {
       "value": "",
@@ -45,7 +45,7 @@
     }
   },
   "events": [],
-  "link": "https://element.eleme.cn/#/en-US/component/checkbox",
-  "link_zh": "https://element.eleme.cn/#/zh-CN/component/checkbox",
+  "link": "http://sand.startdt.net/#/checkbox",
+  "link_zh": "http://sand.startdt.net/#/checkbox",
   "methods": []
 }

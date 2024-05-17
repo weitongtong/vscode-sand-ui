@@ -1,5 +1,5 @@
 {
-  "name": "ElUpload",
+  "name": "SaUpload",
   "props": {
     "action": {
       "value": "",
@@ -211,7 +211,7 @@
       "description_zh": "提示说明文字"
     }
   ],
-  "link": "https://element.eleme.cn/#/en-US/component/upload",
-  "link_zh": "https://element.eleme.cn/#/zh-CN/component/upload",
+  "link": "http://sand.startdt.net/#/upload",
+  "link_zh": "http://sand.startdt.net/#/upload",
   "events": []
 }

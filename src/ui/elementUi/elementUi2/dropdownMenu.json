@@ -1,9 +1,9 @@
 {
-  "name": "ElDropdownMenu",
+  "name": "SaDropdownMenu",
   "props": {},
   "events": [],
-  "suggestions": ["el-dropdown-item"],
-  "link": "https://element.eleme.cn/#/en-US/component/dropdown",
-  "link_zh": "https://element.eleme.cn/#/zh-CN/component/dropdown",
+  "suggestions": ["sa-dropdown-item"],
+  "link": "http://sand.startdt.net/#/dropdown",
+  "link_zh": "http://sand.startdt.net/#/dropdown",
   "methods": []
 }

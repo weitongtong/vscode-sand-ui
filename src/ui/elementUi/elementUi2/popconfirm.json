@@ -1,5 +1,5 @@
 {
-  "name": "ElPopconfirm",
+  "name": "SaPopconfirm",
   "props": {
     "title": {
       "value": "",
@@ -89,8 +89,8 @@
       "description_zh": "触发 Popconfirm 显示的 HTML 元素"
     }
   ],
-  "suggestions": ["el-button"],
-  "link": "https://element.eleme.cn/#/en-US/component/popconfirm",
-  "link_zh": "https://element.eleme.cn/#/zh-CN/component/popconfirm",
+  "suggestions": ["sa-button"],
+  "link": "http://sand.startdt.net/#/popconfirm",
+  "link_zh": "http://sand.startdt.net/#/popconfirm",
   "methods": []
 }

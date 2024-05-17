@@ -1,5 +1,5 @@
 {
-  "name": "ElSubmenu",
+  "name": "SaSubmenu",
   "props": {
     "index": {
       "value": "",
@@ -46,8 +46,8 @@
     }
   },
   "events": [],
-  "suggestions": ["el-menu-item", "el-submenu"],
-  "link": "https://element.eleme.cn/#/en-US/component/menu",
-  "link_zh": "https://element.eleme.cn/#/zh-CN/component/menu",
+  "suggestions": ["sa-menu-item", "sa-submenu"],
+  "link": "http://sand.startdt.net/#/menu",
+  "link_zh": "http://sand.startdt.net/#/menu",
   "methods": []
 }

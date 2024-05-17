@@ -1,5 +1,5 @@
 {
-  "name": "ElTabs",
+  "name": "SaTabs",
   "props": {
     "value": {
       "value": "",
@@ -104,8 +104,8 @@
       "value": ""
     }
   ],
-  "suggestions": ["el-tab-pane"],
-  "link": "https://element.eleme.cn/#/en-US/component/tabs",
-  "link_zh": "https://element.eleme.cn/#/zh-CN/component/tabs",
+  "suggestions": ["sa-tab-pane"],
+  "link": "http://sand.startdt.net/#/tabs",
+  "link_zh": "http://sand.startdt.net/#/tabs",
   "methods": []
 }

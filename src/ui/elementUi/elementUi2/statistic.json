@@ -1,5 +1,5 @@
 {
-  "name": "ElStatistic",
+  "name": "SaStatistic",
   "props": {
     ":value": {
       "value": "",
@@ -135,6 +135,6 @@
       "description_zh": "数值的标题"
     }
   ],
-  "link": "https://element.eleme.cn/#/en-US/component/statistic",
-  "link_zh": "https://element.eleme.cn/#/zh-CN/component/statistic"
+  "link": "http://sand.startdt.net/#/statistic",
+  "link_zh": "http://sand.startdt.net/#/statistic"
 }

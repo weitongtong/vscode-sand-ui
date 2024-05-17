@@ -1,5 +1,5 @@
 {
-  "name": "ElTransfer",
+  "name": "SaTransfer",
   "props": {
     ":value": {
       "value": "",
@@ -150,6 +150,6 @@
       "description_zh": "右侧列表底部的内容"
     }
   ],
-  "link": "https://element.eleme.cn/#/en-US/component/transfer",
-  "link_zh": "https://element.eleme.cn/#/zh-CN/component/transfer"
+  "link": "http://sand.startdt.net/#/transfer",
+  "link_zh": "http://sand.startdt.net/#/transfer"
 }

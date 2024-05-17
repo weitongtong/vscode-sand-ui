@@ -1,5 +1,5 @@
 {
-  "name": "ElDialog",
+  "name": "SaDialog",
   "props": {
     ":visible": {
       "value": "",
@@ -158,7 +158,7 @@
       "description_zh": "Dialog 按钮操作区的内容"
     }
   ],
-  "link": "https://element.eleme.cn/#/en-US/component/dialog",
-  "link_zh": "https://element.eleme.cn/#/zh-CN/component/dialog",
+  "link": "http://sand.startdt.net/#/dialog",
+  "link_zh": "http://sand.startdt.net/#/dialog",
   "methods": []
 }

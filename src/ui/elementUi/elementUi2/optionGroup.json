@@ -1,5 +1,5 @@
 {
-  "name": "ElOptionGroup",
+  "name": "SaOptionGroup",
   "props": {
     ":label": {
       "value": "",
@@ -18,8 +18,8 @@
     }
   },
   "events": [],
-  "suggestions": ["el-option"],
-  "link": "https://element.eleme.cn/#/en-US/component/select",
-  "link_zh": "https://element.eleme.cn/#/zh-CN/component/select",
+  "suggestions": ["sa-option"],
+  "link": "http://sand.startdt.net/#/select",
+  "link_zh": "http://sand.startdt.net/#/select",
   "methods": []
 }

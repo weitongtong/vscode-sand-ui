@@ -1,5 +1,5 @@
 {
-  "name": "ElDescriptionItem",
+  "name": "SaDescriptionItem",
   "props": {
     "label": {
       "value": "",
@@ -53,7 +53,7 @@
     }
   ],
   "events": [],
-  "link": "https://element.eleme.cn/#/en-US/component/descriptions",
-  "link_zh": "https://element.eleme.cn/#/zh-CN/component/descriptions",
+  "link": "http://sand.startdt.net/#/descriptions",
+  "link_zh": "http://sand.startdt.net/#/descriptions",
   "methods": []
 }

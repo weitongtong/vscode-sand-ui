@@ -1,29 +1,26 @@
 {
-  "publisher": "simonhe",
-  "name": "common-intellisense",
-  "displayName": "common-intellisense",
-  "version": "0.1.36",
+  "publisher": "weitongtong",
+  "name": "vscode-sand-ui",
+  "displayName": "vscode-sand-ui",
+  "version": "0.1.1",
   "packageManager": "pnpm@8.1.1",
-  "description": "common-intellisense",
-  "author": "Simon He <https://github.com/Simon-He95>",
+  "description": "vscode-sand-ui",
+  "author": "Wei Tongtong <https://github.com/weitongtong>",
   "license": "MIT",
-  "funding": "https://github.com/sponsors/Simon-He95",
-  "homepage": "https://github.com/Simon-He95/vscode-common-intellisense#readme",
+  "funding": "https://github.com/sponsors/weitongtong",
+  "homepage": "https://github.com/weitongtong/vscode-sand-ui#readme",
   "repository": {
     "type": "git",
-    "url": "https://github.com/Simon-He95/vscode-common-intellisense"
+    "url": "https://github.com/weitongtong/vscode-sand-ui"
   },
   "bugs": {
-    "url": "https://github.com/Simon-He95/vscode-common-intellisense/issues"
-  },
-  "sponsor": {
-    "url": "https://github.com/Simon-He95/sponsor"
+    "url": "https://github.com/weitongtong/vscode-sand-ui/issues"
   },
   "categories": [
     "Other"
   ],
   "main": "./dist/index.js",
-  "icon": "icon.png",
+  "icon": "icon.jpg",
   "files": [
     "dist"
   ],
@@ -37,7 +34,7 @@
     "configuration": {
       "title": "Common Intellisense",
       "properties": {
-        "common-intellisense.ui": {
+        "vscode-sand-ui.ui": {
           "type": "array",
           "default": [
             "auto"
@@ -75,12 +72,12 @@
           },
           "description": "Choose the UI framework. If your selection includes `auto`, the extension will ignore the config and automatically detect the UI framework."
         },
-        "common-intellisense.showSlots": {
+        "vscode-sand-ui.showSlots": {
           "type": "boolean",
           "default": true,
           "description": "Whether to show the slots on template completion."
         },
-        "common-intellisense.alias": {
+        "vscode-sand-ui.alias": {
           "type": "object",
           "default": {},
           "description": "Alias for the UI framework. If the UI framework you are using is not in the list, you can add an alias here. like { \"xxx\": \"elementUi2\" }"
@@ -89,7 +86,7 @@
     },
     "commands": [
       {
-        "command": "common-intellisense.pickUI",
+        "command": "vscode-sand-ui.pickUI",
         "title": "Specify the UI library you need to prompt"
       }
     ]

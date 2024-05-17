@@ -58,12 +58,12 @@
 
 ## configuration
 ```
-"common-intellisense.showSlots": {
+"vscode-sand-ui.showSlots": {
           "type": "boolean",
           "default": true,
           "description": "控制是否要展示 slots 节点"
 },
-"common-intellisense.alias": {
+"vscode-sand-ui.alias": {
           "type": "object",
           "default": {},
           "description": "如果你需要将基于支持的 ui 库，二次封装的库，集成原本 ui 某一个版本的提示，可以使用别名 { \"@xxx/element\": \"elementUi2\" }"

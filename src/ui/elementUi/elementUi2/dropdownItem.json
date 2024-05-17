@@ -1,5 +1,5 @@
 {
-  "name": "ElDropdownItem",
+  "name": "SaDropdownItem",
   "props": {
     "command": {
       "value": "",
@@ -31,7 +31,7 @@
     }
   },
   "events": [],
-  "link": "https://element.eleme.cn/#/en-US/component/dropdown",
-  "link_zh": "https://element.eleme.cn/#/zh-CN/component/dropdown",
+  "link": "http://sand.startdt.net/#/dropdown",
+  "link_zh": "http://sand.startdt.net/#/dropdown",
   "methods": []
 }

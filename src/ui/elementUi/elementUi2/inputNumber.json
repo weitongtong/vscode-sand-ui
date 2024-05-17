@@ -1,5 +1,5 @@
 {
-  "name": "ElInputNumber",
+  "name": "SaInputNumber",
   "props": {
     "type": {
       "value": [
@@ -265,6 +265,6 @@
       "value": ""
     }
   ],
-  "link": "https://element.eleme.cn/#/en-US/component/input-number",
-  "link_zh": "https://element.eleme.cn/#/zh-CN/component/input-number"
+  "link": "http://sand.startdt.net/#/input-number",
+  "link_zh": "http://sand.startdt.net/#/input-number"
 }

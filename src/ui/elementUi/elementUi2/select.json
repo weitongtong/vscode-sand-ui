@@ -1,5 +1,5 @@
 {
-  "name": "ElSelect",
+  "name": "SaSelect",
   "props": {
     "value": {
       "value": "",
@@ -269,7 +269,7 @@
       "description_zh": "无选项时的列表"
     }
   ],
-  "suggestions": ["el-option", "el-option-group"],
-  "link": "https://element.eleme.cn/#/en-US/component/select",
-  "link_zh": "https://element.eleme.cn/#/zh-CN/component/select"
+  "suggestions": ["sa-option", "sa-option-group"],
+  "link": "http://sand.startdt.net/#/select",
+  "link_zh": "http://sand.startdt.net/#/select"
 }

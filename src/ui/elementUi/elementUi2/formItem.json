@@ -1,5 +1,5 @@
 {
-  "name": "ElFormItem",
+  "name": "SaFormItem",
   "props": {
     "prop": {
       "value": "",
@@ -94,7 +94,7 @@
       "description_zh": "标签文本的内容"
     }
   ],
-  "link": "https://element.eleme.cn/#/en-US/component/form",
-  "link_zh": "https://element.eleme.cn/#/zh-CN/component/form",
+  "link": "http://sand.startdt.net/#/form",
+  "link_zh": "http://sand.startdt.net/#/form",
   "events": []
 }

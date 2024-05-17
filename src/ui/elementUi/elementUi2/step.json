@@ -1,5 +1,5 @@
 {
-  "name": "ElStep",
+  "name": "SaStep",
   "props": {
     "title": {
       "value": "",
@@ -55,7 +55,7 @@
       "description_zh": "自定义描述性文字"
     }
   ],
-  "link": "https://element.eleme.cn/#/en-US/component/steps",
-  "link_zh": "https://element.eleme.cn/#/zh-CN/component/steps",
+  "link": "http://sand.startdt.net/#/steps",
+  "link_zh": "http://sand.startdt.net/#/steps",
   "methods": []
 }

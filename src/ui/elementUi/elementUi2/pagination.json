@@ -1,5 +1,5 @@
 {
-  "name": "ElPagination",
+  "name": "SaPagination",
   "props": {
     "small": {
       "value": "",
@@ -132,7 +132,7 @@
       "value": ""
     }
   ],
-  "link": "https://element.eleme.cn/#/en-US/component/pagination",
-  "link_zh": "https://element.eleme.cn/#/zh-CN/component/pagination",
+  "link": "http://sand.startdt.net/#/pagination",
+  "link_zh": "http://sand.startdt.net/#/pagination",
   "methods": []
 }

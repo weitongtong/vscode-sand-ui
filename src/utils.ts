@@ -443,7 +443,8 @@ export function parserSvelte(code: string, position: vscode.Position) {
 }
 
 let stop: any = null
-export const alias = getConfiguration('common-intellisense.alias') as Record<string, string>
+// export const alias = getConfiguration('vscode-sand-ui.alias') as Record<string, string>
+export const alias: Record<string, string> = { '@fe/sand-ui': 'elementUi2' }
 export async function findPkgUI(cwd?: string) {
   if (!cwd)
     return
@@ -613,7 +614,7 @@ export function registerCodeLensProviderFn() {
           result.push(new vscode.CodeLens(createRange(range.start.line - 1, range.start.column, range.end.line - 1, range.end.column), {
             title: `${i === 0 ? 'Slots: ' : ''}${name}`,
             tooltip: isZh ? description_zh : description,
-            command: 'common-intellisense.slots',
+            command: 'vscode-sand-ui.slots',
             arguments: [child, name, offset],
           }))
         })

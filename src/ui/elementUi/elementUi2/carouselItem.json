@@ -1,5 +1,5 @@
 {
-  "name": "ElCarouselItem",
+  "name": "SaCarouselItem",
   "props": {
     "name": {
       "value": "",
@@ -17,7 +17,7 @@
     }
   },
   "events": [],
-  "link": "https://element.eleme.cn/#/en-US/component/carousel",
-  "link_zh": "https://element.eleme.cn/#/zh-CN/component/carousel",
+  "link": "http://sand.startdt.net/#/carousel",
+  "link_zh": "http://sand.startdt.net/#/carousel",
   "methods": []
 }

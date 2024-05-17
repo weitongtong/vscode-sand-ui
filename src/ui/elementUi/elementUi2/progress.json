@@ -1,5 +1,5 @@
 {
-  "name": "ElProgress",
+  "name": "SaProgress",
   "props": {
     ":percentage": {
       "value": "",
@@ -100,7 +100,7 @@
     }
   },
   "events": [],
-  "link": "https://element.eleme.cn/#/en-US/component/progress",
-  "link_zh": "https://element.eleme.cn/#/zh-CN/component/progress",
+  "link": "http://sand.startdt.net/#/progress",
+  "link_zh": "http://sand.startdt.net/#/progress",
   "methods": []
 }

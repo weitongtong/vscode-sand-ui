@@ -1,5 +1,5 @@
 {
-  "name": "ElResult",
+  "name": "SaResult",
   "props": {
     "title": {
       "value": "",
@@ -52,7 +52,7 @@
     }
   ],
   "events": [],
-  "link": "https://element.eleme.cn/#/en-US/component/result",
-  "link_zh": "https://element.eleme.cn/#/zh-CN/component/result",
+  "link": "http://sand.startdt.net/#/result",
+  "link_zh": "http://sand.startdt.net/#/result",
   "methods": []
 }

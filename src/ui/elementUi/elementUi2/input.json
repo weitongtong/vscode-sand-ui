@@ -1,5 +1,5 @@
 {
-  "name": "ElInput",
+  "name": "SaInput",
   "props": {
     "type": {
       "value": [
@@ -294,6 +294,6 @@
       "description_zh": "输入框后置内容"
     }
   ],
-  "link": "https://element.eleme.cn/#/en-US/component/input",
-  "link_zh": "https://element.eleme.cn/#/zh-CN/component/input"
+  "link": "http://sand.startdt.net/#/input",
+  "link_zh": "http://sand.startdt.net/#/input"
 }

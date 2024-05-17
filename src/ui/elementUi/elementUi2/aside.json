@@ -1,5 +1,5 @@
 {
-  "name": "ElAside",
+  "name": "SaAside",
   "props": {
     "width": {
       "value": "",
@@ -9,8 +9,8 @@
       "description_zh": "侧边栏宽度"
     }
   },
-  "link": "https://element.eleme.cn/#/en-US/component/container",
-  "link_zh": "https://element.eleme.cn/#/zh-CN/component/container",
+  "link": "http://sand.startdt.net/#/container",
+  "link_zh": "http://sand.startdt.net/#/container",
   "methods": [],
   "events": []
 }

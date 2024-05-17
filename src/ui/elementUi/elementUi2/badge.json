@@ -1,5 +1,5 @@
 {
-  "name": "ElBadge",
+  "name": "SaBadge",
   "props": {
     "value": {
       "value": "",
@@ -44,8 +44,8 @@
     }
   },
   "events": [],
-  "suggestions": ["el-button"],
-  "link": "https://element.eleme.cn/#/en-US/component/badge",
-  "link_zh": "https://element.eleme.cn/#/zh-CN/component/badge",
+  "suggestions": ["sa-button"],
+  "link": "http://sand.startdt.net/#/badge",
+  "link_zh": "http://sand.startdt.net/#/badge",
   "methods": []
 }

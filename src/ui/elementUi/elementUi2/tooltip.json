@@ -1,5 +1,5 @@
 {
-  "name": "ElTooltip",
+  "name": "SaTooltip",
   "props": {
     "effect": {
       "value": [
@@ -131,9 +131,9 @@
       "description_zh": "Tooltip 组件的 [tabindex](https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes/tabindex)"
     }
   },
-  "suggestions": ["el-button"],
+  "suggestions": ["sa-button"],
   "events": [],
-  "link": "https://element.eleme.cn/#/en-US/component/tooltip",
-  "link_zh": "https://element.eleme.cn/#/zh-CN/component/tooltip",
+  "link": "http://sand.startdt.net/#/tooltip",
+  "link_zh": "http://sand.startdt.net/#/tooltip",
   "methods": []
 }

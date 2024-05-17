@@ -1,5 +1,5 @@
 {
-  "name": "ElColorPicker",
+  "name": "SaColorPicker",
   "props": {
     "value": {
       "value": "",
@@ -84,7 +84,7 @@
       "value": ""
     }
   ],
-  "link": "https://element.eleme.cn/#/en-US/component/color-picker",
-  "link_zh": "https://element.eleme.cn/#/zh-CN/component/color-picker",
+  "link": "http://sand.startdt.net/#/color-picker",
+  "link_zh": "http://sand.startdt.net/#/color-picker",
   "methods": []
 }

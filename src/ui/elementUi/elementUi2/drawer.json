@@ -1,5 +1,5 @@
 {
-  "name": "ElDrawer",
+  "name": "SaDrawer",
   "props": {
     "append-to-body": {
       "value": "",
@@ -142,7 +142,7 @@
       "description_zh": "Drawer 标题区的内容"
     }
   ],
-  "link": "https://element.eleme.cn/#/en-US/component/drawer",
-  "link_zh": "https://element.eleme.cn/#/zh-CN/component/drawer",
+  "link": "http://sand.startdt.net/#/drawer",
+  "link_zh": "http://sand.startdt.net/#/drawer",
   "methods": []
 }

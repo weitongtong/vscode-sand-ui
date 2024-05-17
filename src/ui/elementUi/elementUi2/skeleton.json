@@ -1,5 +1,5 @@
 {
-  "name": "ElSkeleton",
+  "name": "SaSkeleton",
   "props": {
     "animated": {
       "value": [
@@ -54,8 +54,8 @@
     }
   ],
   "events": [],
-  "suggestions": ["el-skeleton-item"],
-  "link": "https://element.eleme.cn/#/en-US/component/skeleton",
-  "link_zh": "https://element.eleme.cn/#/zh-CN/component/skeleton",
+  "suggestions": ["sa-skeleton-item"],
+  "link": "http://sand.startdt.net/#/skeleton",
+  "link_zh": "http://sand.startdt.net/#/skeleton",
   "methods": []
 }

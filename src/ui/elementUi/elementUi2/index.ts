@@ -1,168 +1,168 @@
 import { getLocale } from '@vscode-use/utils'
 import { componentsReducer, propsReducer } from '../../utils'
-import ElRow from './row.json'
-import ElCalendar from './calendar.json'
-import ElCol from './col.json'
-import ElAlert from './alert.json'
-import ElButton from './button.json'
-import ElButtonGroup from './buttonGroup.json'
-import ElContainer from './container.json'
-import ElHeader from './header.json'
-import ElAside from './aside.json'
-import ElFooter from './footer.json'
-import ElLink from './link.json'
-import ElRadio from './radio.json'
-import ElRadioGroup from './radioGroup.json'
-import ElRadioButton from './radioButton.json'
-import ElForm from './form.json'
-import ElFormItem from './formItem.json'
-import ElTable from './table.json'
-import ElTableColumn from './tableColumn.json'
-import ElCard from './card.json'
-import ElInput from './input.json'
-import ElInputNumber from './inputNumber.json'
-import ElAutocomplete from './autocomplete.json'
-import ElSelect from './select.json'
-import ElCascader from './cascader.json'
-import ElCascaderPanel from './cascaderPanel.json'
-import ElCheckbox from './checkbox.json'
-import ElCheckboxGroup from './checkboxGroup.json'
-import ElCheckboxButton from './checkboxButton.json'
-import ElBadge from './badge.json'
-import ElBreadcrumb from './breadcrumb.json'
-import ElCarousel from './carousel.json'
-import ElCarouselItem from './carouselItem.json'
-import ElCollapse from './collapse.json'
-import ElCollapseItem from './collapseItem.json'
-import ElColorPicker from './colorPicker.json'
-import ElImage from './image.json'
-import ElEmpty from './empty.json'
-import ElDropdown from './dropdown.json'
-import ElDropdownMenu from './dropdownMenu.json'
-import ElDropdownItem from './dropdownItem.json'
-import ElDrawer from './drawer.json'
-import ElDivider from './divider.json'
-import ElDialog from './dialog.json'
-import ElDescriptions from './descriptions.json'
-import ElDescriptionItem from './descriptionItem.json'
-import ElDatePicker from './datePicker.json'
-import ElDatetimePicker from './datetimePicker.json'
-import ElMain from './main.json'
-import ElMenu from './menu.json'
-import ElMenuItem from './menuItem.json'
-import ElPageHeader from './pageHeader.json'
-import ElPagination from './pagination.json'
-import ElPopconfirm from './popconfirm.json'
-import ElPopover from './popover.json'
-import ElProgress from './progress.json'
-import ElRate from './rate.json'
-import ElResult from './result.json'
-import ElSkeleton from './skeleton.json'
-import ElSkeletonItem from './skeletonItem.json'
-import ElSlider from './slider.json'
-import ElStatistic from './statistic.json'
-import ElStep from './step.json'
-import ElSteps from './steps.json'
-import ElSubmenu from './submenu.json'
-import ElSwitch from './switch.json'
-import ElTabPane from './tabPane.json'
-import ElTabs from './tabs.json'
-import ElTag from './tag.json'
-import ElTimeline from './timeline.json'
-import ElTimelineItem from './timelineItem.json'
-import ElTimePicker from './timePicker.json'
-import ElTimeSelect from './timeSelect.json'
-import ElTooltip from './tooltip.json'
-import ElTransfer from './transfer.json'
-import ElTree from './tree.json'
-import ElUpload from './upload.json'
-import ElAvatar from './avatar.json'
-import ElBacktop from './backtop.json'
-import ElOption from './option.json'
-import ElOptionGroup from './optionGroup.json'
+import SaRow from './row.json'
+import SaCalendar from './calendar.json'
+import SaCol from './col.json'
+import SaAlert from './alert.json'
+import SaButton from './button.json'
+import SaButtonGroup from './buttonGroup.json'
+import SaContainer from './container.json'
+import SaHeader from './header.json'
+import SaAside from './aside.json'
+import SaFooter from './footer.json'
+import SaLink from './link.json'
+import SaRadio from './radio.json'
+import SaRadioGroup from './radioGroup.json'
+import SaRadioButton from './radioButton.json'
+import SaForm from './form.json'
+import SaFormItem from './formItem.json'
+import SaTable from './table.json'
+import SaTableColumn from './tableColumn.json'
+import SaCard from './card.json'
+import SaInput from './input.json'
+import SaInputNumber from './inputNumber.json'
+import SaAutocomplete from './autocomplete.json'
+import SaSelect from './select.json'
+import SaCascader from './cascader.json'
+import SaCascaderPanel from './cascaderPanel.json'
+import SaCheckbox from './checkbox.json'
+import SaCheckboxGroup from './checkboxGroup.json'
+import SaCheckboxButton from './checkboxButton.json'
+import SaBadge from './badge.json'
+import SaBreadcrumb from './breadcrumb.json'
+import SaCarousel from './carousel.json'
+import SaCarouselItem from './carouselItem.json'
+import SaCollapse from './collapse.json'
+import SaCollapseItem from './collapseItem.json'
+import SaColorPicker from './colorPicker.json'
+import SaImage from './image.json'
+import SaEmpty from './empty.json'
+import SaDropdown from './dropdown.json'
+import SaDropdownMenu from './dropdownMenu.json'
+import SaDropdownItem from './dropdownItem.json'
+import SaDrawer from './drawer.json'
+import SaDivider from './divider.json'
+import SaDialog from './dialog.json'
+import SaDescriptions from './descriptions.json'
+import SaDescriptionItem from './descriptionItem.json'
+import SaDatePicker from './datePicker.json'
+import SaDatetimePicker from './datetimePicker.json'
+import SaMain from './main.json'
+import SaMenu from './menu.json'
+import SaMenuItem from './menuItem.json'
+import SaPageHeader from './pageHeader.json'
+import SaPagination from './pagination.json'
+import SaPopconfirm from './popconfirm.json'
+import SaPopover from './popover.json'
+import SaProgress from './progress.json'
+import SaRate from './rate.json'
+import SaResult from './result.json'
+import SaSkeleton from './skeleton.json'
+import SaSkeletonItem from './skeletonItem.json'
+import SaSlider from './slider.json'
+import SaStatistic from './statistic.json'
+import SaStep from './step.json'
+import SaSteps from './steps.json'
+import SaSubmenu from './submenu.json'
+import SaSwitch from './switch.json'
+import SaTabPane from './tabPane.json'
+import SaTabs from './tabs.json'
+import SaTag from './tag.json'
+import SaTimeline from './timeline.json'
+import SaTimelineItem from './timelineItem.json'
+import SaTimePicker from './timePicker.json'
+import SaTimeSelect from './timeSelect.json'
+import SaTooltip from './tooltip.json'
+import SaTransfer from './transfer.json'
+import SaTree from './tree.json'
+import SaUpload from './upload.json'
+import SaAvatar from './avatar.json'
+import SaBacktop from './backtop.json'
+import SaOption from './option.json'
+import SaOptionGroup from './optionGroup.json'
 
 export function elementUi2(extensionContext: any) {
   const map: any = [
-    ElRow,
-    ElCol,
-    ElCalendar,
-    ElAlert,
-    ElButton,
-    ElButtonGroup,
-    ElContainer,
-    ElHeader,
-    ElAside,
-    ElFooter,
-    ElLink,
-    ElRadio,
-    ElRadioGroup,
-    ElRadioButton,
-    ElForm,
-    ElFormItem,
-    ElTable,
-    ElTableColumn,
-    ElCard,
-    ElInput,
-    ElInputNumber,
-    ElAutocomplete,
-    ElSelect,
-    ElCascader,
-    ElCascaderPanel,
-    ElCheckbox,
-    ElCheckboxGroup,
-    ElCheckboxButton,
-    ElBadge,
-    ElBreadcrumb,
-    ElCarousel,
-    ElCarouselItem,
-    ElCollapse,
-    ElCollapseItem,
-    ElColorPicker,
-    ElImage,
-    ElEmpty,
-    ElDropdown,
-    ElDropdownMenu,
-    ElDropdownItem,
-    ElDrawer,
-    ElDivider,
-    ElDialog,
-    ElDescriptions,
-    ElDescriptionItem,
-    ElDatePicker,
-    ElDatetimePicker,
-    ElMain,
-    ElMenu,
-    ElMenuItem,
-    ElPageHeader,
-    ElPagination,
-    ElPopconfirm,
-    ElPopover,
-    ElProgress,
-    ElRate,
-    ElResult,
-    ElSkeleton,
-    ElSkeletonItem,
-    ElSlider,
-    ElStatistic,
-    ElStep,
-    ElSteps,
-    ElSubmenu,
-    ElSwitch,
-    ElTabPane,
-    ElTabs,
-    ElTag,
-    ElTimeline,
-    ElTimelineItem,
-    ElTimePicker,
-    ElTimeSelect,
-    ElTooltip,
-    ElTransfer,
-    ElTree,
-    ElUpload,
-    ElAvatar,
-    ElBacktop,
-    ElOption,
-    ElOptionGroup,
+    SaRow,
+    SaCol,
+    SaCalendar,
+    SaAlert,
+    SaButton,
+    SaButtonGroup,
+    SaContainer,
+    SaHeader,
+    SaAside,
+    SaFooter,
+    SaLink,
+    SaRadio,
+    SaRadioGroup,
+    SaRadioButton,
+    SaForm,
+    SaFormItem,
+    SaTable,
+    SaTableColumn,
+    SaCard,
+    SaInput,
+    SaInputNumber,
+    SaAutocomplete,
+    SaSelect,
+    SaCascader,
+    SaCascaderPanel,
+    SaCheckbox,
+    SaCheckboxGroup,
+    SaCheckboxButton,
+    SaBadge,
+    SaBreadcrumb,
+    SaCarousel,
+    SaCarouselItem,
+    SaCollapse,
+    SaCollapseItem,
+    SaColorPicker,
+    SaImage,
+    SaEmpty,
+    SaDropdown,
+    SaDropdownMenu,
+    SaDropdownItem,
+    SaDrawer,
+    SaDivider,
+    SaDialog,
+    SaDescriptions,
+    SaDescriptionItem,
+    SaDatePicker,
+    SaDatetimePicker,
+    SaMain,
+    SaMenu,
+    SaMenuItem,
+    SaPageHeader,
+    SaPagination,
+    SaPopconfirm,
+    SaPopover,
+    SaProgress,
+    SaRate,
+    SaResult,
+    SaSkeleton,
+    SaSkeletonItem,
+    SaSlider,
+    SaStatistic,
+    SaStep,
+    SaSteps,
+    SaSubmenu,
+    SaSwitch,
+    SaTabPane,
+    SaTabs,
+    SaTag,
+    SaTimeline,
+    SaTimelineItem,
+    SaTimePicker,
+    SaTimeSelect,
+    SaTooltip,
+    SaTransfer,
+    SaTree,
+    SaUpload,
+    SaAvatar,
+    SaBacktop,
+    SaOption,
+    SaOptionGroup,
   ]
   const icons = [
     'platform-eleme',
@@ -447,7 +447,7 @@ export function elementUi2(extensionContext: any) {
     'ice-cream-round',
   ]
 
-  return propsReducer('element-ui', map, 'el', { prefix: 'el-icon', type: 'elementUi', icons }, extensionContext)
+  return propsReducer('sand-ui', map, 'sa', { prefix: 'sa-icon', type: 'sandUi', icons }, extensionContext)
 }
 
 export function elementUi2Components() {
@@ -456,788 +456,788 @@ export function elementUi2Components() {
   const map = isZh
     ? [
         [
-          ElRow,
+          SaRow,
           '行布局',
-          '<el-row></el-row>',
+          '<sa-row></sa-row>',
         ],
         [
-          ElCol,
+          SaCol,
           '列布局',
-          '<el-col></el-col>',
+          '<sa-col></sa-col>',
         ],
         [
-          ElContainer,
+          SaContainer,
           '布局容器',
-          '<el-container></el-container>',
+          '<sa-container></sa-container>',
         ],
         [
-          ElHeader,
+          SaHeader,
           '顶栏容器',
-          '<el-header></el-header>',
+          '<sa-header></sa-header>',
         ],
         [
-          ElAside,
+          SaAside,
           '侧边栏容器',
-          '<el-aside></el-aside>',
+          '<sa-aside></sa-aside>',
         ],
         [
           'el-main',
           '主要区域容器',
-          '<el-main></el-main>',
+          '<sa-main></sa-main>',
         ],
         [
-          ElFooter,
+          SaFooter,
           '底栏容器',
-          '<el-footer></el-footer>',
+          '<sa-footer></sa-footer>',
         ],
         [
-          ElButton,
+          SaButton,
           '按钮',
-          '<el-button></el-button>',
+          '<sa-button></sa-button>',
         ],
         [
-          ElButtonGroup,
+          SaButtonGroup,
           '按钮组',
-          '<el-button-group></el-button-group>',
+          '<sa-button-group></sa-button-group>',
         ],
         [
-          ElLink,
+          SaLink,
           '文字链接',
-          '<el-link></el-link>',
+          '<sa-link></sa-link>',
         ],
         [
-          ElRadio,
+          SaRadio,
           '单选框',
-          '<el-radio></el-radio>',
+          '<sa-radio></sa-radio>',
         ],
         [
-          ElRadioGroup,
+          SaRadioGroup,
           '单选框组',
-          '<el-radio-group></el-radio-group>',
+          '<sa-radio-group></sa-radio-group>',
         ],
         [
-          ElRadioButton,
+          SaRadioButton,
           '按钮样式的单选组合',
-          '<el-radio-button></el-radio-button>',
+          '<sa-radio-button></sa-radio-button>',
         ],
         [
-          ElCheckbox,
+          SaCheckbox,
           '多选框',
-          '<el-checkbox></el-checkbox>',
+          '<sa-checkbox></sa-checkbox>',
         ],
         [
-          ElCheckboxGroup,
+          SaCheckboxGroup,
           '多选框组',
-          '<el-checkbox-group></el-checkbox-group>',
+          '<sa-checkbox-group></sa-checkbox-group>',
         ],
         [
-          ElCheckboxButton,
+          SaCheckboxButton,
           '按钮样式的多选组合',
-          '<el-checkbox-button></el-checkbox-button>',
+          '<sa-checkbox-button></sa-checkbox-button>',
         ],
         [
-          ElInput,
+          SaInput,
           '输入框',
-          '<el-input></el-input>',
+          '<sa-input></sa-input>',
         ],
         [
-          ElInputNumber,
+          SaInputNumber,
           '计数器',
-          '<el-input-number></el-input-number>',
+          '<sa-input-number></sa-input-number>',
         ],
         [
-          ElSelect,
+          SaSelect,
           '选择器',
-          '<el-select></el-select>',
+          '<sa-select></sa-select>',
         ],
         [
-          ElOption,
+          SaOption,
           '基础多选',
-          '<el-option></el-option>',
+          '<sa-option></sa-option>',
         ],
         [
-          ElOptionGroup,
+          SaOptionGroup,
           '备选项进行分组展示',
-          '<el-option-group></el-option-group>',
+          '<sa-option-group></sa-option-group>',
         ],
         [
-          ElCascader,
+          SaCascader,
           '级联选择器',
-          '<el-cascader></el-cascader>',
+          '<sa-cascader></sa-cascader>',
         ],
         [
-          ElCascaderPanel,
+          SaCascaderPanel,
           '级联面板',
-          '<el-cascader-panel></el-cascader-panel>',
+          '<sa-cascader-panel></sa-cascader-panel>',
         ],
         [
-          ElSwitch,
+          SaSwitch,
           '开关',
-          '<el-switch></el-switch>',
+          '<sa-switch></sa-switch>',
         ],
         [
-          ElSlider,
+          SaSlider,
           '滑块',
-          '<el-slider></el-slider>',
+          '<sa-slider></sa-slider>',
         ],
         [
-          ElTimeSelect,
+          SaTimeSelect,
           '时间选择器',
-          '<el-time-select></el-time-select>',
+          '<sa-time-select></sa-time-select>',
         ],
         [
-          ElDatePicker,
+          SaDatePicker,
           '日期选择器/日期时间选择器',
-          '<el-date-picker></el-date-picker>',
+          '<sa-date-picker></sa-date-picker>',
         ],
         [
-          ElUpload,
+          SaUpload,
           '上传',
-          '<el-upload></el-upload>',
+          '<sa-upload></sa-upload>',
         ],
         [
-          ElRate,
+          SaRate,
           '评分',
-          '<el-rate></el-rate>',
+          '<sa-rate></sa-rate>',
         ],
         [
-          ElColorPicker,
+          SaColorPicker,
           '颜色选择器',
-          '<el-color-picker></el-color-picker>',
+          '<sa-color-picker></sa-color-picker>',
         ],
         [
-          ElTransfer,
+          SaTransfer,
           '穿梭框',
-          '<el-transfer></el-transfer>',
+          '<sa-transfer></sa-transfer>',
         ],
         [
-          ElForm,
+          SaForm,
           '表单',
-          '<el-form></el-form>',
+          '<sa-form></sa-form>',
         ],
         [
-          ElFormItem,
+          SaFormItem,
           '表单项',
-          '<el-form-item></el-form-item>',
+          '<sa-form-item></sa-form-item>',
         ],
         [
-          ElTable,
+          SaTable,
           '表格',
-          '<el-table></el-table>',
+          '<sa-table></sa-table>',
         ],
         [
-          ElTableColumn,
+          SaTableColumn,
           '表格项',
-          '<el-table-column></el-table-column>',
+          '<sa-table-column></sa-table-column>',
         ],
         [
-          ElTag,
+          SaTag,
           '标签',
-          '<el-tag></el-tag>',
+          '<sa-tag></sa-tag>',
         ],
         [
-          ElProgress,
+          SaProgress,
           '进度条',
-          '<el-progress></el-progress>',
+          '<sa-progress></sa-progress>',
         ],
         [
-          ElTree,
+          SaTree,
           '树形控件',
-          '<el-tree></el-tree>',
+          '<sa-tree></sa-tree>',
         ],
         [
-          ElPagination,
+          SaPagination,
           '分页',
-          '<el-pagination></el-pagination>',
+          '<sa-pagination></sa-pagination>',
         ],
         [
-          ElBadge,
+          SaBadge,
           '标记',
-          '<el-badge></el-badge>',
+          '<sa-badge></sa-badge>',
         ],
         [
-          ElAvatar,
+          SaAvatar,
           '头像',
-          '<el-avatar></el-avatar>',
+          '<sa-avatar></sa-avatar>',
         ],
         [
-          ElSkeleton,
+          SaSkeleton,
           '骨架屏',
-          '<el-skeleton></el-skeleton>',
+          '<sa-skeleton></sa-skeleton>',
         ],
         [
-          ElEmpty,
+          SaEmpty,
           '空状态',
-          '<el-empty></el-empty>',
+          '<sa-empty></sa-empty>',
         ],
         [
-          ElDescriptions,
+          SaDescriptions,
           '描述列表',
-          '<el-descriptions></el-descriptions>',
+          '<sa-descriptions></sa-descriptions>',
         ],
         [
-          ElDescriptionItem,
+          SaDescriptionItem,
           '描述列表',
-          '<el-description-item></el-description-item>',
+          '<sa-description-item></sa-description-item>',
         ],
         [
           'el-descriptions-item',
           '描述列表项',
-          '<el-descriptions-item></el-descriptions-item>',
+          '<sa-descriptions-item></sa-descriptions-item>',
         ],
         [
-          ElResult,
+          SaResult,
           '结果',
-          '<el-result></el-result>',
+          '<sa-result></sa-result>',
         ],
         [
-          ElStatistic,
+          SaStatistic,
           '统计数值',
-          '<el-statistic></el-statistic>',
+          '<sa-statistic></sa-statistic>',
         ],
         [
-          ElAlert,
+          SaAlert,
           '警告',
-          '<el-alert></el-alert>',
+          '<sa-alert></sa-alert>',
         ],
 
         [
-          ElMain,
+          SaMain,
           '主要区域容器',
-          '<el-main></el-main>',
+          '<sa-main></sa-main>',
         ],
         [
-          ElMenu,
+          SaMenu,
           '导航菜单',
-          '<el-menu></el-menu>',
+          '<sa-menu></sa-menu>',
         ],
         [
-          ElSubmenu,
+          SaSubmenu,
           '导航子菜单',
-          '<el-submenu></el-submenu>',
+          '<sa-submenu></sa-submenu>',
         ],
         [
-          ElMenuItem,
+          SaMenuItem,
           '导航菜单项',
-          '<el-menu-item></el-menu-item>',
+          '<sa-menu-item></sa-menu-item>',
         ],
         [
-          ElTabs,
+          SaTabs,
           '标签页',
-          '<el-tabs></el-tabs>',
+          '<sa-tabs></sa-tabs>',
         ],
         [
-          ElTabPane,
+          SaTabPane,
           '标签项',
-          '<el-tab-pane></el-tab-pane>',
+          '<sa-tab-pane></sa-tab-pane>',
         ],
         [
-          ElBreadcrumb,
+          SaBreadcrumb,
           '面包屑',
-          '<el-breadcrumb></el-breadcrumb>',
+          '<sa-breadcrumb></sa-breadcrumb>',
         ],
         [
           'el-breadcrumb-item',
           '面包屑项',
-          '<el-breadcrumb-item></el-breadcrumb-item>',
+          '<sa-breadcrumb-item></sa-breadcrumb-item>',
         ],
         [
-          ElPageHeader,
+          SaPageHeader,
           '页头',
-          '<el-page-header></el-page-header>',
+          '<sa-page-header></sa-page-header>',
         ],
         [
-          ElDropdown,
+          SaDropdown,
           '下拉菜单',
-          '<el-dropdown></el-dropdown>',
+          '<sa-dropdown></sa-dropdown>',
         ],
         [
-          ElDropdownMenu,
+          SaDropdownMenu,
           '下拉菜单列表',
-          '<el-dropdown-menu></el-dropdown-menu>',
+          '<sa-dropdown-menu></sa-dropdown-menu>',
         ],
         [
-          ElDropdownItem,
+          SaDropdownItem,
           '下拉菜单列表项',
-          '<el-dropdown-item></el-dropdown-item>',
+          '<sa-dropdown-item></sa-dropdown-item>',
         ],
         [
-          ElSteps,
+          SaSteps,
           '步骤条',
-          '<el-steps></el-steps>',
+          '<sa-steps></sa-steps>',
         ],
         [
-          ElDialog,
+          SaDialog,
           '对话框',
-          '<el-dialog></el-dialog>',
+          '<sa-dialog></sa-dialog>',
         ],
         [
-          ElTooltip,
+          SaTooltip,
           '文字提示',
-          '<el-tooltip></el-tooltip>',
+          '<sa-tooltip></sa-tooltip>',
         ],
         [
-          ElPopover,
+          SaPopover,
           '弹出框',
-          '<el-popover></el-popover>',
+          '<sa-popover></sa-popover>',
         ],
         [
-          ElPopconfirm,
+          SaPopconfirm,
           '气泡确认框',
-          '<el-popconfirm></el-popconfirm>',
+          '<sa-popconfirm></sa-popconfirm>',
         ],
         [
-          ElCard,
+          SaCard,
           '卡片',
-          '<el-card></el-card>',
+          '<sa-card></sa-card>',
         ],
         [
-          ElCarousel,
+          SaCarousel,
           '走马灯',
-          '<el-carousel></el-carousel>',
+          '<sa-carousel></sa-carousel>',
         ],
         [
-          ElCarouselItem,
+          SaCarouselItem,
           '走马灯项',
-          '<el-carousel-item></el-carousel-item>',
+          '<sa-carousel-item></sa-carousel-item>',
         ],
         [
-          ElCollapse,
+          SaCollapse,
           '折叠面板',
-          '<el-collapse></el-collapse>',
+          '<sa-collapse></sa-collapse>',
         ],
         [
-          ElCollapseItem,
+          SaCollapseItem,
           '折叠面板项',
-          '<el-collapse-item></el-collapse-item>',
+          '<sa-collapse-item></sa-collapse-item>',
         ],
         [
-          ElTimeline,
+          SaTimeline,
           '时间线',
-          '<el-timeline></el-timeline>',
+          '<sa-timeline></sa-timeline>',
         ],
         [
-          ElTimelineItem,
+          SaTimelineItem,
           '时间线项',
-          '<el-timeline-item></el-timeline-item>',
+          '<sa-timeline-item></sa-timeline-item>',
         ],
         [
-          ElDivider,
+          SaDivider,
           '分割线',
-          '<el-divider></el-divider>',
+          '<sa-divider></sa-divider>',
         ],
         [
-          ElCalendar,
+          SaCalendar,
           '日历',
-          '<el-calendar></el-calendar>',
+          '<sa-calendar></sa-calendar>',
         ],
         [
-          ElImage,
+          SaImage,
           '图片',
-          '<el-image></el-image>',
+          '<sa-image></sa-image>',
         ],
         [
-          ElBacktop,
+          SaBacktop,
           '回到顶部',
-          '<el-backtop></el-backtop>',
+          '<sa-backtop></sa-backtop>',
         ],
         [
-          ElDrawer,
+          SaDrawer,
           '抽屉',
-          '<el-drawer></el-drawer>',
+          '<sa-drawer></sa-drawer>',
         ],
         [
-          ElAutocomplete,
+          SaAutocomplete,
           '远程搜索',
-          '<el-autocomplete></el-autocomplete>',
+          '<sa-autocomplete></sa-autocomplete>',
         ],
       ]
     : [
         [
-          ElRow,
+          SaRow,
           'Row layout',
-          '<el-row></el-row>',
+          '<sa-row></sa-row>',
         ],
         [
-          ElCol,
+          SaCol,
           'Column layout',
-          '<el-col></el-col>',
+          '<sa-col></sa-col>',
         ],
         [
-          ElContainer,
+          SaContainer,
           'Layout container',
-          '<el-container></el-container>',
+          '<sa-container></sa-container>',
         ],
         [
-          ElHeader,
+          SaHeader,
           'Top bar container',
-          '<el-header></el-header>',
+          '<sa-header></sa-header>',
         ],
         [
-          ElAside,
+          SaAside,
           'Sidebar container',
-          '<el-aside></el-aside>',
+          '<sa-aside></sa-aside>',
         ],
         [
           'el-main',
           'Main area container',
-          '<el-main></el-main>',
+          '<sa-main></sa-main>',
         ],
         [
-          ElFooter,
+          SaFooter,
           'Bottom column container',
-          '<el-footer></el-footer>',
+          '<sa-footer></sa-footer>',
         ],
         [
-          ElButton,
+          SaButton,
           'button',
-          '<el-button></el-button>',
+          '<sa-button></sa-button>',
         ],
         [
-          ElButtonGroup,
+          SaButtonGroup,
           'button group',
-          '<el-button-group></el-button-group>',
+          '<sa-button-group></sa-button-group>',
         ],
         [
-          ElLink,
+          SaLink,
           'Text link',
-          '<el-link></el-link>',
+          '<sa-link></sa-link>',
         ],
         [
-          ElRadio,
+          SaRadio,
           'Single box',
-          '<el-radio></el-radio>',
+          '<sa-radio></sa-radio>',
         ],
         [
-          ElRadioGroup,
+          SaRadioGroup,
           'Radio button group',
-          '<el-radio-group></el-radio-group>',
+          '<sa-radio-group></sa-radio-group>',
         ],
         [
-          ElRadioButton,
+          SaRadioButton,
           'Radio combination of button styles',
-          '<el-radio-button></el-radio-button>',
+          '<sa-radio-button></sa-radio-button>',
         ],
         [
-          ElCheckbox,
+          SaCheckbox,
           'Checkbox',
-          '<el-checkbox></el-checkbox>',
+          '<sa-checkbox></sa-checkbox>',
         ],
         [
-          ElCheckboxGroup,
+          SaCheckboxGroup,
           'Multiple selection box group',
-          '<el-checkbox-group></el-checkbox-group>',
+          '<sa-checkbox-group></sa-checkbox-group>',
         ],
         [
-          ElCheckboxButton,
+          SaCheckboxButton,
           'Multi-select combination of button styles',
-          '<el-checkbox-button></el-checkbox-button>',
+          '<sa-checkbox-button></sa-checkbox-button>',
         ],
         [
-          ElInput,
+          SaInput,
           'Input box',
-          '<el-input></el-input>',
+          '<sa-input></sa-input>',
         ],
         [
-          ElInputNumber,
+          SaInputNumber,
           'counter',
-          '<el-input-number></el-input-number>',
+          '<sa-input-number></sa-input-number>',
         ],
         [
-          ElSelect,
+          SaSelect,
           'Selector',
-          '<el-select></el-select>',
+          '<sa-select></sa-select>',
         ],
         [
-          ElOption,
+          SaOption,
           'Basic multiple selection',
-          '<el-option></el-option>',
+          '<sa-option></sa-option>',
         ],
         [
-          ElOptionGroup,
+          SaOptionGroup,
           'Alternatives are displayed in groups',
-          '<el-option-group></el-option-group>',
+          '<sa-option-group></sa-option-group>',
         ],
         [
-          ElCascader,
+          SaCascader,
           'Cascade selector',
-          '<el-cascader></el-cascader>',
+          '<sa-cascader></sa-cascader>',
         ],
         [
-          ElCascaderPanel,
+          SaCascaderPanel,
           'Cascading Panel',
-          '<el-cascader-panel></el-cascader-panel>',
+          '<sa-cascader-panel></sa-cascader-panel>',
         ],
         [
-          ElSwitch,
+          SaSwitch,
           'switch',
-          '<el-switch></el-switch>',
+          '<sa-switch></sa-switch>',
         ],
         [
-          ElSlider,
+          SaSlider,
           'slider',
-          '<el-slider></el-slider>',
+          '<sa-slider></sa-slider>',
         ],
         [
-          ElTimeSelect,
+          SaTimeSelect,
           'Time picker',
-          '<el-time-select></el-time-select>',
+          '<sa-time-select></sa-time-select>',
         ],
         [
-          ElDatePicker,
+          SaDatePicker,
           'Date picker/date time picker',
-          '<el-date-picker></el-date-picker>',
+          '<sa-date-picker></sa-date-picker>',
         ],
         [
-          ElUpload,
+          SaUpload,
           'Upload',
-          '<el-upload></el-upload>',
+          '<sa-upload></sa-upload>',
         ],
         [
-          ElRate,
+          SaRate,
           'score',
-          '<el-rate></el-rate>',
+          '<sa-rate></sa-rate>',
         ],
         [
-          ElColorPicker,
+          SaColorPicker,
           'Color picker',
-          '<el-color-picker></el-color-picker>',
+          '<sa-color-picker></sa-color-picker>',
         ],
         [
-          ElTransfer,
+          SaTransfer,
           'Shuttle box',
-          '<el-transfer></el-transfer>',
+          '<sa-transfer></sa-transfer>',
         ],
         [
-          ElForm,
+          SaForm,
           'form',
-          '<el-form></el-form>',
+          '<sa-form></sa-form>',
         ],
         [
-          ElFormItem,
+          SaFormItem,
           'Form item',
-          '<el-form-item></el-form-item>',
+          '<sa-form-item></sa-form-item>',
         ],
         [
-          ElTable,
+          SaTable,
           'sheet',
-          '<el-table></el-table>',
+          '<sa-table></sa-table>',
         ],
         [
-          ElTableColumn,
+          SaTableColumn,
           'Table item',
-          '<el-table-column></el-table-column>',
+          '<sa-table-column></sa-table-column>',
         ],
         [
-          ElTag,
+          SaTag,
           'Label',
-          '<el-tag></el-tag>',
+          '<sa-tag></sa-tag>',
         ],
         [
-          ElProgress,
+          SaProgress,
           'progress bar',
-          '<el-progress></el-progress>',
+          '<sa-progress></sa-progress>',
         ],
         [
-          ElTree,
+          SaTree,
           'Tree control',
-          '<el-tree></el-tree>',
+          '<sa-tree></sa-tree>',
         ],
         [
-          ElPagination,
+          SaPagination,
           'pagination',
-          '<el-pagination></el-pagination>',
+          '<sa-pagination></sa-pagination>',
         ],
         [
-          ElBadge,
+          SaBadge,
           'mark',
-          '<el-badge></el-badge>',
+          '<sa-badge></sa-badge>',
         ],
         [
-          ElAvatar,
+          SaAvatar,
           'avatar',
-          '<el-avatar></el-avatar>',
+          '<sa-avatar></sa-avatar>',
         ],
         [
-          ElSkeleton,
+          SaSkeleton,
           'Skeleton screen',
-          '<el-skeleton></el-skeleton>',
+          '<sa-skeleton></sa-skeleton>',
         ],
         [
-          ElEmpty,
+          SaEmpty,
           'Empty state',
-          '<el-empty></el-empty>',
+          '<sa-empty></sa-empty>',
         ],
         [
-          ElDescriptions,
+          SaDescriptions,
           'Description list',
-          '<el-descriptions></el-descriptions>',
+          '<sa-descriptions></sa-descriptions>',
         ],
         [
-          ElDropdownItem,
+          SaDropdownItem,
           'Describe list item',
-          '<el-descriptions-item></el-descriptions-item>',
+          '<sa-descriptions-item></sa-descriptions-item>',
         ],
         [
-          ElResult,
+          SaResult,
           'result',
-          '<el-result></el-result>',
+          '<sa-result></sa-result>',
         ],
         [
-          ElStatistic,
+          SaStatistic,
           'statistical value',
-          '<el-statistic></el-statistic>',
+          '<sa-statistic></sa-statistic>',
         ],
         [
-          ElAlert,
+          SaAlert,
           'warn',
-          '<el-alert></el-alert>',
+          '<sa-alert></sa-alert>',
         ],
         [
-          ElMenu,
+          SaMenu,
           'Navigation menu',
-          '<el-menu></el-menu>',
+          '<sa-menu></sa-menu>',
         ],
         [
-          ElSubmenu,
+          SaSubmenu,
           'Navigation submenu',
-          '<el-submenu></el-submenu>',
+          '<sa-submenu></sa-submenu>',
         ],
         [
-          ElMenuItem,
+          SaMenuItem,
           'Navigation menu item',
-          '<el-menu-item></el-menu-item>',
+          '<sa-menu-item></sa-menu-item>',
         ],
         [
-          ElTabs,
+          SaTabs,
           'Bookmark page',
-          '<el-tabs></el-tabs>',
+          '<sa-tabs></sa-tabs>',
         ],
         [
-          ElTabPane,
+          SaTabPane,
           'Tag item',
-          '<el-tab-pane></el-tab-pane>',
+          '<sa-tab-pane></sa-tab-pane>',
         ],
         [
-          ElBreadcrumb,
+          SaBreadcrumb,
           'Bread crumbs',
-          '<el-breadcrumb></el-breadcrumb>',
+          '<sa-breadcrumb></sa-breadcrumb>',
         ],
         [
           'el-breadcrumb-item',
           'Breadcrumb item',
-          '<el-breadcrumb-item></el-breadcrumb-item>',
+          '<sa-breadcrumb-item></sa-breadcrumb-item>',
         ],
         [
-          ElPageHeader,
+          SaPageHeader,
           'Header',
-          '<el-page-header></el-page-header>',
+          '<sa-page-header></sa-page-header>',
         ],
         [
-          ElDropdown,
+          SaDropdown,
           'Drop-down menu',
-          '<el-dropdown></el-dropdown>',
+          '<sa-dropdown></sa-dropdown>',
         ],
         [
-          ElDropdownMenu,
+          SaDropdownMenu,
           'Drop-down menu list',
-          '<el-dropdown-menu></el-dropdown-menu>',
+          '<sa-dropdown-menu></sa-dropdown-menu>',
         ],
         [
-          ElDropdownItem,
+          SaDropdownItem,
           'Drop-down menu list item',
-          '<el-dropdown-item></el-dropdown-item>',
+          '<sa-dropdown-item></sa-dropdown-item>',
         ],
         [
-          ElSteps,
+          SaSteps,
           'step bar',
-          '<el-steps></el-steps>',
+          '<sa-steps></sa-steps>',
         ],
         [
-          ElDialog,
+          SaDialog,
           'Dialog',
-          '<el-dialog></el-dialog>',
+          '<sa-dialog></sa-dialog>',
         ],
         [
-          ElTooltip,
+          SaTooltip,
           'Text prompt',
-          '<el-tooltip></el-tooltip>',
+          '<sa-tooltip></sa-tooltip>',
         ],
         [
-          ElPopover,
+          SaPopover,
           'Pop-up box',
-          '<el-popover></el-popover>',
+          '<sa-popover></sa-popover>',
         ],
         [
-          ElPopconfirm,
+          SaPopconfirm,
           'Bubble confirmation box',
-          '<el-popconfirm></el-popconfirm>',
+          '<sa-popconfirm></sa-popconfirm>',
         ],
         [
-          ElCard,
+          SaCard,
           'card',
-          '<el-card></el-card>',
+          '<sa-card></sa-card>',
         ],
         [
-          ElCarousel,
+          SaCarousel,
           'Revolving Lantern',
-          '<el-carousel></el-carousel>',
+          '<sa-carousel></sa-carousel>',
         ],
         [
-          ElCarouselItem,
+          SaCarouselItem,
           'Revolving Lantern',
-          '<el-carousel-item></el-carousel-item>',
+          '<sa-carousel-item></sa-carousel-item>',
         ],
         [
-          ElCollapse,
+          SaCollapse,
           'Collapse panel',
-          '<el-collapse></el-collapse>',
+          '<sa-collapse></sa-collapse>',
         ],
         [
-          ElCollapseItem,
+          SaCollapseItem,
           'Collapse panel item',
-          '<el-collapse-item></el-collapse-item>',
+          '<sa-collapse-item></sa-collapse-item>',
         ],
         [
-          ElTimeline,
+          SaTimeline,
           'timeline',
-          '<el-timeline></el-timeline>',
+          '<sa-timeline></sa-timeline>',
         ],
         [
-          ElTimelineItem,
+          SaTimelineItem,
           'Timeline item',
-          '<el-timeline-item></el-timeline-item>',
+          '<sa-timeline-item></sa-timeline-item>',
         ],
         [
-          ElDivider,
+          SaDivider,
           'Dividing line',
-          '<el-divider></el-divider>',
+          '<sa-divider></sa-divider>',
         ],
         [
-          ElCalendar,
+          SaCalendar,
           'calendar',
-          '<el-calendar></el-calendar>',
+          '<sa-calendar></sa-calendar>',
         ],
         [
-          ElImage,
+          SaImage,
           'picture',
-          '<el-image></el-image>',
+          '<sa-image></sa-image>',
         ],
         [
-          ElBacktop,
+          SaBacktop,
           'back to the top',
-          '<el-backtop></el-backtop>',
+          '<sa-backtop></sa-backtop>',
         ],
         [
-          ElDrawer,
+          SaDrawer,
           'drawer',
-          '<el-drawer></el-drawer>',
+          '<sa-drawer></sa-drawer>',
         ],
         [
-          ElAutocomplete,
+          SaAutocomplete,
           'Remote search',
-          '<el-autocomplete></el-autocomplete>',
+          '<sa-autocomplete></sa-autocomplete>',
         ],
       ]
-  return componentsReducer(map, true, 'el', 'element-ui')
+  return componentsReducer(map, true, 'sa', 'sand-ui')
 }

@@ -1,5 +1,5 @@
 {
-  "name": "ElMenuItem",
+  "name": "SaMenuItem",
   "props": {
     "index": {
       "value": "",
@@ -25,7 +25,7 @@
     }
   },
   "events": [],
-  "link": "https://element.eleme.cn/#/en-US/component/menu",
-  "link_zh": "https://element.eleme.cn/#/zh-CN/component/menu",
+  "link": "http://sand.startdt.net/#/menu",
+  "link_zh": "http://sand.startdt.net/#/menu",
   "methods": []
 }

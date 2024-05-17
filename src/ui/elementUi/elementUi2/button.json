@@ -1,5 +1,5 @@
 {
-  "name": "ElButton",
+  "name": "SaButton",
   "props": {
     "size": {
       "value": [
@@ -54,12 +54,33 @@
       "type": "boolean",
       "description_zh": "是否加载中状态"
     },
+    "normalMessage": {
+      "value": "",
+      "description": "Show Tooltip message",
+      "default": "",
+      "type": "string",
+      "description_zh": "展示 Tooltip 提示信息"
+    },
     "disabled": {
       "value": "",
       "description": "Whether the status is disabled",
       "default": "false",
       "type": "boolean",
       "description_zh": "是否禁用状态"
+    },
+    "disabledMessage": {
+      "value": "",
+      "description": "Show Disabled Status Tooltip message",
+      "default": "",
+      "type": "string",
+      "description_zh": "展示禁用状态下 Tooltip 提示信息"
+    },
+    "authDisabled": {
+      "value": "",
+      "description": "Whether the status is auth disabled",
+      "default": "",
+      "type": "string",
+      "description_zh": "是否无权限禁用"
     },
     "icon": {
       "value": "",
@@ -87,8 +108,8 @@
       "description_zh": "原生 type 属性"
     }
   },
-  "link": "https://element.eleme.cn/#/en-US/component/button",
-  "link_zh": "https://element.eleme.cn/#/zh-CN/component/button",
+  "link": "http://sand.startdt.net/#/button",
+  "link_zh": "http://sand.startdt.net/#/button",
   "methods": [],
   "events": []
 }

@@ -1,5 +1,5 @@
 {
-  "name": "ElCheckboxGroup",
+  "name": "SaCheckboxGroup",
   "props": {
     ":v-model": {
       "value": "",
@@ -61,8 +61,8 @@
       "value": ""
     }
   ],
-  "suggestions": ["el-checkbox", "el-checkbox-button"],
-  "link": "https://element.eleme.cn/#/en-US/component/checkbox",
-  "link_zh": "https://element.eleme.cn/#/zh-CN/component/checkbox",
+  "suggestions": ["sa-checkbox", "sa-checkbox-button"],
+  "link": "http://sand.startdt.net/#/checkbox",
+  "link_zh": "http://sand.startdt.net/#/checkbox",
   "methods": []
 }

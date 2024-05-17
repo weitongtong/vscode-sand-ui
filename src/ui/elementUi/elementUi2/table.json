@@ -1,5 +1,5 @@
 {
-  "name": "ElTable",
+  "name": "SaTable",
   "props": {
     ":data": {
       "value": "",
@@ -416,7 +416,7 @@
       "description_zh": "插入至表格最后一行之后的内容，如果需要对表格的内容进行无限滚动操作，可能需要用到这个 slot。若表格有合计行，该 slot 会位于合计行之上。"
     }
   ],
-  "suggestions": ["el-table-column"],
-  "link": "https://element.eleme.cn/#/en-US/component/table",
-  "link_zh": "https://element.eleme.cn/#/zh-CN/component/table"
+  "suggestions": ["sa-table-column"],
+  "link": "http://sand.startdt.net/#/table",
+  "link_zh": "http://sand.startdt.net/#/table"
 }

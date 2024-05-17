@@ -1,5 +1,5 @@
 {
-  "name": "ElEmpty",
+  "name": "SaEmpty",
   "props": {
     "image": {
       "value": "",
@@ -41,7 +41,7 @@
     }
   ],
   "events": [],
-  "link": "https://element.eleme.cn/#/en-US/component/empty",
-  "link_zh": "https://element.eleme.cn/#/zh-CN/component/empty",
+  "link": "http://sand.startdt.net/#/empty",
+  "link_zh": "http://sand.startdt.net/#/empty",
   "methods": []
 }

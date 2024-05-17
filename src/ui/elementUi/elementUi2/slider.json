@@ -1,5 +1,5 @@
 {
-  "name": "ElSlider",
+  "name": "SaSlider",
   "props": {
     ":value": {
       "value": "",
@@ -157,7 +157,7 @@
       "value": ""
     }
   ],
-  "link": "https://element.eleme.cn/#/en-US/component/slider",
-  "link_zh": "https://element.eleme.cn/#/zh-CN/component/slider",
+  "link": "http://sand.startdt.net/#/slider",
+  "link_zh": "http://sand.startdt.net/#/slider",
   "methods": []
 }

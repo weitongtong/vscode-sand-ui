@@ -1,5 +1,5 @@
 {
-  "name": "ElBacktop",
+  "name": "SaBacktop",
   "props": {
     "target": {
       "value": "",
@@ -31,7 +31,7 @@
     }
   },
   "events": [],
-  "link": "https://element.eleme.cn/#/en-US/component/backtop",
-  "link_zh": "https://element.eleme.cn/#/zh-CN/component/backtop",
+  "link": "http://sand.startdt.net/#/backtop",
+  "link_zh": "http://sand.startdt.net/#/backtop",
   "methods": []
 }

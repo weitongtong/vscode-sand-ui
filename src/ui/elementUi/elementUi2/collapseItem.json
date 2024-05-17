@@ -1,5 +1,5 @@
 {
-  "name": "ElCollapseItem",
+  "name": "SaCollapseItem",
   "props": {
     "name": {
       "value": "",
@@ -25,7 +25,7 @@
     }
   },
   "events": [],
-  "link": "https://element.eleme.cn/#/en-US/component/collapse",
-  "link_zh": "https://element.eleme.cn/#/zh-CN/component/collapse",
+  "link": "http://sand.startdt.net/#/collapse",
+  "link_zh": "http://sand.startdt.net/#/collapse",
   "methods": []
 }

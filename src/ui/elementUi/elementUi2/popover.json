@@ -1,5 +1,5 @@
 {
-  "name": "ElPopover",
+  "name": "SaPopover",
   "props": {
     "trigger": {
       "value": [
@@ -171,7 +171,7 @@
       "description_zh": "触发 Popover 显示的 HTML 元素"
     }
   ],
-  "link": "https://element.eleme.cn/#/en-US/component/popover",
-  "link_zh": "https://element.eleme.cn/#/zh-CN/component/popover",
+  "link": "http://sand.startdt.net/#/popover",
+  "link_zh": "http://sand.startdt.net/#/popover",
   "methods": []
 }

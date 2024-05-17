@@ -1,5 +1,5 @@
 {
-  "name": "ElDropdown",
+  "name": "SaDropdown",
   "props": {
     "type": {
       "value": "",
@@ -113,8 +113,8 @@
       "description_zh": "下拉列表，通常是 <el-dropdown-menu> 组件"
     }
   ],
-  "suggestions": ["el-dropdown-menu"],
-  "link": "https://element.eleme.cn/#/en-US/component/dropdown",
-  "link_zh": "https://element.eleme.cn/#/zh-CN/component/dropdown",
+  "suggestions": ["sa-dropdown-menu"],
+  "link": "http://sand.startdt.net/#/dropdown",
+  "link_zh": "http://sand.startdt.net/#/dropdown",
   "methods": []
 }

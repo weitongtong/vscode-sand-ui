@@ -1,5 +1,5 @@
 {
-  "name": "ElTag",
+  "name": "SaTag",
   "props": {
     "type": {
       "value": [
@@ -80,7 +80,7 @@
       "value": ""
     }
   ],
-  "link": "https://element.eleme.cn/#/en-US/component/tag",
-  "link_zh": "https://element.eleme.cn/#/zh-CN/component/tag",
+  "link": "http://sand.startdt.net/#/tag",
+  "link_zh": "http://sand.startdt.net/#/tag",
   "methods": []
 }

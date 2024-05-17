@@ -1,5 +1,5 @@
 {
-  "name": "ElSkeletonItem",
+  "name": "SaSkeletonItem",
   "props": {
     "variant": {
       "value": [
@@ -20,7 +20,7 @@
     }
   },
   "events": [],
-  "link": "https://element.eleme.cn/#/en-US/component/skeleton",
-  "link_zh": "https://element.eleme.cn/#/zh-CN/component/skeleton",
+  "link": "http://sand.startdt.net/#/skeleton",
+  "link_zh": "http://sand.startdt.net/#/skeleton",
   "methods": []
 }

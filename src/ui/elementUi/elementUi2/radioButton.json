@@ -1,5 +1,5 @@
 {
-  "name": "ElRadioButton",
+  "name": "SaRadioButton",
   "props": {
     "label": {
       "value": "",
@@ -24,8 +24,8 @@
       "description_zh": "原生 name 属性"
     }
   },
-  "link": "https://element.eleme.cn/#/en-US/component/radio",
-  "link_zh": "https://element.eleme.cn/#/zh-CN/component/radio",
+  "link": "http://sand.startdt.net/#/radio",
+  "link_zh": "http://sand.startdt.net/#/radio",
   "methods": [],
   "events": []
 }

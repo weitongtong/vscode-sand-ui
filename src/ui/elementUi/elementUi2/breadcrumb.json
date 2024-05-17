@@ -1,5 +1,5 @@
 {
-  "name": "ElBreadcrumb",
+  "name": "SaBreadcrumb",
   "props": {
     "separator": {
       "value": "",
@@ -17,7 +17,7 @@
     }
   },
   "events": [],
-  "link": "https://element.eleme.cn/#/en-US/component/breadcrumb",
-  "link_zh": "https://element.eleme.cn/#/zh-CN/component/breadcrumb",
+  "link": "http://sand.startdt.net/#/breadcrumb",
+  "link_zh": "http://sand.startdt.net/#/breadcrumb",
   "methods": []
 }

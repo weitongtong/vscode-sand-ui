@@ -1,5 +1,5 @@
 {
-  "name": "ElCascaderPanel",
+  "name": "SaCascaderPanel",
   "props": {
     "value": {
       "value": "",
@@ -40,7 +40,7 @@
       "value": ""
     }
   ],
-  "link": "https://element.eleme.cn/#/en-US/component/cascader",
-  "link_zh": "https://element.eleme.cn/#/zh-CN/component/cascader",
+  "link": "http://sand.startdt.net/#/cascader",
+  "link_zh": "http://sand.startdt.net/#/cascader",
   "methods": []
 }

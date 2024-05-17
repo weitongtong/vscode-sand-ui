@@ -1,5 +1,5 @@
 {
-  "name": "ElPageHeader",
+  "name": "SaPageHeader",
   "props": {
     "title": {
       "value": "",
@@ -38,7 +38,7 @@
       "description_zh": "标题内容"
     }
   ],
-  "link": "https://element.eleme.cn/#/en-US/component/page-header",
-  "link_zh": "https://element.eleme.cn/#/zh-CN/component/page-header",
+  "link": "http://sand.startdt.net/#/page-header",
+  "link_zh": "http://sand.startdt.net/#/page-header",
   "methods": []
 }

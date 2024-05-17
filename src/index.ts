@@ -17,7 +17,7 @@ let extensionContext: any = null
 let eventCallbacks: any = new Map()
 let completionsCallbacks: any = new Map()
 let currentPkgUiNames: null | string[] = null
-const isShowSlots = getConfiguration('common-intellisense.showSlots')
+const isShowSlots = getConfiguration('vscode-sand-ui.showSlots')
 
 // todo: 补充example
 export function activate(context: vscode.ExtensionContext) {
@@ -40,14 +40,14 @@ export function activate(context: vscode.ExtensionContext) {
     message.info('copy successfully')
   }))
 
-  context.subscriptions.push(registerCommand('common-intellisense.pickUI', () => {
+  context.subscriptions.push(registerCommand('vscode-sand-ui.pickUI', () => {
     if (currentPkgUiNames && currentPkgUiNames.length) {
       createSelect(currentPkgUiNames, {
         canPickMany: true,
         placeHolder: isZh ? '请指定你需要提示的 UI 库' : 'Please specify the UI library you need to prompt.',
         title: 'common intellisense',
       }).then((data) => {
-        setConfiguration('common-intellisense.ui', data)
+        setConfiguration('vscode-sand-ui.ui', data)
       })
     }
     else {
@@ -58,11 +58,11 @@ export function activate(context: vscode.ExtensionContext) {
   }))
 
   context.subscriptions.push(addEventListener('config-change', (e) => {
-    if (e.affectsConfiguration('common-intellisense.ui'))
+    if (e.affectsConfiguration('vscode-sand-ui.ui'))
       findUI()
   }))
 
-  context.subscriptions.push(registerCommand('common-intellisense.import', (params, loc, _lineOffset) => {
+  context.subscriptions.push(registerCommand('vscode-sand-ui.import', (params, loc, _lineOffset) => {
     if (!params)
       return
     const [data, lib, _, prefix] = params
@@ -133,7 +133,7 @@ export function activate(context: vscode.ExtensionContext) {
   findUI()
   // 监听pkg变化
   if (isShowSlots) {
-    context.subscriptions.push(registerCommand('common-intellisense.slots', (child, name, offset = 0) => {
+    context.subscriptions.push(registerCommand('vscode-sand-ui.slots', (child, name, offset = 0) => {
       const activeText = getActiveText()
       if (!activeText)
         return
@@ -398,14 +398,14 @@ export function activate(context: vscode.ExtensionContext) {
       if (item.params[2]) {
         item.command = {
           title: 'common-intellisense-import',
-          command: 'common-intellisense.import',
+          command: 'vscode-sand-ui.import',
           arguments: [item.params, item.loc, (item.snippet || item.content).split('\n').length - 1],
         }
       }
       else {
         item.command = {
-          title: 'common-intellisense.slots',
-          command: 'common-intellisense.slots',
+          title: 'vscode-sand-ui.slots',
+          command: 'vscode-sand-ui.slots',
           arguments: [],
         }
       }
@@ -557,7 +557,7 @@ export function findUI() {
   currentPkgUiNames = null
   cacheMap.clear()
 
-  const selectedUIs = getConfiguration('common-intellisense.ui') as string[]
+  const selectedUIs = getConfiguration('vscode-sand-ui.ui') as string[]
 
   const cwd = getCurrentFileUrl()
   if (!cwd || cwd === 'exthhost')

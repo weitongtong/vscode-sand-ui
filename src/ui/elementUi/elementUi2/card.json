@@ -1,5 +1,5 @@
 {
-  "name": "ElCard",
+  "name": "SaCard",
   "props": {
     "header": {
       "value": "",
@@ -27,8 +27,8 @@
       "description_zh": "设置阴影显示时机"
     }
   },
-  "link": "https://element.eleme.cn/#/en-US/component/card",
-  "link_zh": "https://element.eleme.cn/#/zh-CN/component/card",
+  "link": "http://sand.startdt.net/#/card",
+  "link_zh": "http://sand.startdt.net/#/card",
   "methods": [],
   "events": []
 }
